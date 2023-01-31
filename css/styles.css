@@ -1,0 +1,175 @@
+/* 
+    BY Akex06
+    COLOR PALETTE:
+    */
+    
+.colors {
+    color: #658864;
+    color: #B7B78A;
+    color: #DDDDDD;
+    color: #EEEEEE
+}
+
+@font-face {
+    font-family: londrina;
+    src: url("../fonts/LondrinaSolid-Regular.ttf");
+}
+
+* {
+    font-family: londrina;
+}
+
+body {
+    background-color: antiquewhite;
+    background-image: url("../images/fondo.png");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 90px;
+    color: #B7B78A;
+}
+
+nav {
+    width: 100vw;
+    background-color: #658864;
+    position: fixed;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 20px 15px;
+    border: 2px solid #B7B78A;
+    background-color: #658864;
+    color: #EEEEEE;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+li a {
+    text-decoration: none;
+    color: #EEEEEE;
+    height: 100px
+}
+
+li:hover {
+    background-color: #B7B78A;
+    border: 2px solid #DDDDDD;
+    color: #658864;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.nosotros {
+    padding: 100px;
+    text-align: center;
+    background: #B7B78A;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p {
+    font-size: 60px;
+    margin: 0;
+    color: #DDDDDD;
+}
+
+.nosotros > div{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.user {
+    height: 200px;
+    width: 200px;
+}
+
+.image {
+    width: 500px
+}
+
+.video {
+    text-align: center;
+    margin: 100px;
+}
+
+.video > p {
+    color: #658864;
+}
+
+.sub {
+    font-size: 30px;
+}
+
+.product {
+    padding: 100px;
+    background-color: #B7B78A;
+    text-align: center;
+    height: 500px;
+}
+
+.small {
+    font-size: 25px;
+    color:#EEEEEE;
+    width: 500px;
+    font-stretch: expanded;
+    text-align: justify;
+    margin: 100px;
+}
+
+.contactos {
+    display: flex;
+}
+
+.contactos > p {
+    color:  #658864;
+    width: fit-content;
+}
+
+.contact {
+    text-align: center;
+    padding: 100px;
+}
+
+.contact > p {
+    color: #658864
+}
+
+.productos {
+    display: flex;
+    align-items: center;
+}
+
+.img_product {
+    width: 500px;
+}
+
+video {
+    width: 100%;
+}

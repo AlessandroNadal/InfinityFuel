@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Infinity Fuel - Main</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li onclick="scrollto('main')">HOME</li>
+            <li onclick="scrollto('nosotros')">QUIENES SOMOS</li>
+            <li onclick="scrollto('video')">VIDEO</li>
+            <li onclick="scrollto('product')">NUESTRO PRODUCTO</li>
+            <li onclick="scrollto('contact')">CONTACTO</li>
+        </ul>
+    </nav>
+    <div class="main" id="main">
+        <h1>Infinity Fuel</h1>
+    </div>
+    <div class="nosotros" id="nosotros">
+        <p>QUIENES SOMOS</p>
+        <div>
+            <div class="image">
+                <img src="images/user.png" class="user">
+                <p class="sub">Alessandro Nadal</p>
+            </div>
+            <div class="image">
+                <img src="images/user.png" class="user">
+                <p class="sub">H. Gabriel Escobar</p>
+            </div>
+            <div class="image">
+                <img src="images/user.png" class="user">
+                <p class="sub">Rubén Correa</p>
+            </div>
+        </div>
+    </div>
+    <div class="video" id="video">
+        <p>VIDEO</p>
+        <video controls>
+            <source src="images/video.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="product" id="product">
+        <p>NUESTRO PRODUCTO</p>
+        <div class="productos">
+            <p class="small">Un purificador de aire que utiliza tecnología de separación de moléculas de carbono, es efectivo para eliminar contaminantes como el dióxido de carbono, el monóxido de carbono y otros compuestos orgánicos volátiles (VOC). Este tipo de tecnología funciona mediante la absorción de estas moléculas tóxicas y la retención de ellas en un filtro, manteniendo así el aire limpio y fresco.</p>
+            <img src="images/product.png" class="img_product">
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <p>CONTACTO</p>
+        <div class="contactos">
+            <p class="small">Correo: akex@akex.dev</p>
+            <p class="small">Teléfono: +34 606 606 606</p>
+            <p class="small">Instagram: @InfinityFuel_</p>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
